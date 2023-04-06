@@ -47,9 +47,9 @@ void start_task(void *pvParameters)
     {
     
         LED_On();
-        vTaskDelay(1000);
+        vTaskDelay(2000);
         LED_Off();
-        vTaskDelay(1000);
+        vTaskDelay(2000);
         
    }
     
